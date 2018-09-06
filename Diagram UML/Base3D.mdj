@@ -1290,6 +1290,198 @@
 							"nameLabel": {
 								"$ref": "AAAAAAFlAhoqaLbLPio="
 							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAFld3apCkOYVm4=",
+							"_parent": {
+								"$ref": "AAAAAAFk/SbhO0Xpl7c="
+							},
+							"model": {
+								"$ref": "AAAAAAFld3apCEOWS4I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFld3apCkOZM+0=",
+									"_parent": {
+										"$ref": "AAAAAAFld3apCkOYVm4="
+									},
+									"font": "Arial;13;0",
+									"left": 826,
+									"top": 402,
+									"width": 76.63720703125,
+									"height": 39,
+									"text": "ROS Parameter con URDF",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 816,
+							"top": 392,
+							"width": 96.63720703125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFld3apCkOZM+0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFld3etR0O6YQM=",
+							"_parent": {
+								"$ref": "AAAAAAFk/SbhO0Xpl7c="
+							},
+							"model": {
+								"$ref": "AAAAAAFld3etQ0O4ZJc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFld3etR0O73ys=",
+									"_parent": {
+										"$ref": "AAAAAAFld3etR0O6YQM="
+									},
+									"font": "Arial;13;0",
+									"left": 698,
+									"top": 506,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "KDL URDF Analisis",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 688,
+							"top": 496,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFld3etR0O73ys="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFld3et90PCYes=",
+							"_parent": {
+								"$ref": "AAAAAAFk/SbhO0Xpl7c="
+							},
+							"model": {
+								"$ref": "AAAAAAFld3et9kPABzI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFld3et90PDi+Y=",
+									"_parent": {
+										"$ref": "AAAAAAFld3et90PCYes="
+									},
+									"model": {
+										"$ref": "AAAAAAFld3et9kPABzI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 859,
+									"top": 542,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFld3et90PCYes="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFld3etR0O6YQM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFld3apCkOYVm4="
+							},
+							"lineStyle": 2,
+							"points": "860:463;860:533;761:533",
+							"nameLabel": {
+								"$ref": "AAAAAAFld3et90PDi+Y="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFld3hs7UPUjgo=",
+							"_parent": {
+								"$ref": "AAAAAAFk/SbhO0Xpl7c="
+							},
+							"model": {
+								"$ref": "AAAAAAFld3hs7EPSA1s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFld3hs7UPVZoI=",
+									"_parent": {
+										"$ref": "AAAAAAFld3hs7UPUjgo="
+									},
+									"font": "Arial;13;0",
+									"left": 946,
+									"top": 514,
+									"width": 155.314453125,
+									"height": 26,
+									"text": "URDF a PLUGIN_ROBOT_MODEL",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 936,
+							"top": 504,
+							"width": 175.314453125,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFld3hs7UPVZoI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFld3htr0PcZYA=",
+							"_parent": {
+								"$ref": "AAAAAAFk/SbhO0Xpl7c="
+							},
+							"model": {
+								"$ref": "AAAAAAFld3htr0Pa8kA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFld3htr0PdgWs=",
+									"_parent": {
+										"$ref": "AAAAAAFld3htr0PcZYA="
+									},
+									"model": {
+										"$ref": "AAAAAAFld3htr0Pa8kA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 872,
+									"top": 497,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFld3htr0PcZYA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFld3hs7UPUjgo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFld3apCkOYVm4="
+							},
+							"lineStyle": 2,
+							"points": "872:463;872:518;936:518",
+							"nameLabel": {
+								"$ref": "AAAAAAFld3htr0PdgWs="
+							}
 						}
 					]
 				},
@@ -1632,6 +1824,58 @@
 						"$ref": "AAAAAAFk/SbhO0XooXw="
 					},
 					"name": "thor_mang_hands_tud_simple.urdf.xacro"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAFld3apCEOWS4I=",
+					"_parent": {
+						"$ref": "AAAAAAFk/SbhO0XooXw="
+					},
+					"name": "ROS Parameter con URDF",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFld3et9kPABzI=",
+							"_parent": {
+								"$ref": "AAAAAAFld3apCEOWS4I="
+							},
+							"source": {
+								"$ref": "AAAAAAFld3apCEOWS4I="
+							},
+							"target": {
+								"$ref": "AAAAAAFld3etQ0O4ZJc="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFld3htr0Pa8kA=",
+							"_parent": {
+								"$ref": "AAAAAAFld3apCEOWS4I="
+							},
+							"source": {
+								"$ref": "AAAAAAFld3apCEOWS4I="
+							},
+							"target": {
+								"$ref": "AAAAAAFld3hs7EPSA1s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFld3etQ0O4ZJc=",
+					"_parent": {
+						"$ref": "AAAAAAFk/SbhO0XooXw="
+					},
+					"name": "KDL URDF Analisis"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFld3hs7EPSA1s=",
+					"_parent": {
+						"$ref": "AAAAAAFk/SbhO0XooXw="
+					},
+					"name": "URDF a PLUGIN_ROBOT_MODEL"
 				}
 			]
 		}
